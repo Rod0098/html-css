@@ -1,6 +1,70 @@
 @charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
 
-h1{
+
+}
+header{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-image: url("../imagens/goku.jpg");
+    color: rgb(0, 0, 0); 
+    margin: auto;
+    background-position: center top;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header> h1 {
+    font-size: 5.9vw;
+}
+section > p{
+    padding-bottom: 2em;
+    font-size: 1.7vw;
+}
+section {
+ padding-top: 10vh;
+ padding-bottom: 10vh;
+ line-height: 2em;
+ padding-left: 20%;
+ font-size: 1,7vw;
+
+}
+ section.imagem{ 
+   background-color: rgba(0, 0, 0, 0.219);
+   color: white;
+   box-shadow: inset 6px 13px 0px rgba(0, 0, 0, 0.041);
+   background-image: url("../imagens/gokubody2.jpg");
+   background-size: cover;
+   background-attachment: fixed;
+
+ }
+ section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.356);
+    display: inline-block;
     
-    background-image: "../imagens/goku.jpg";
+ }
+ section.imagem#imgrod{
+    background-image: url(../imagens/rod001.jpg);
+    background-size: cover;
+    background-position: center center;
+ }
+ section.imagem#ult{
+    background-image: url(../imagens/1366_2000.jpg);
+    background-size: cover;
+    background-position: top top;
+    background-attachment: fixed;
+ }
+section.normal{
+    
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
 }
