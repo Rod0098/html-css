@@ -12,16 +12,29 @@
             border-collapse: collapse;
             width: 500px;
         }
+        .destaque{
+           background-color: lightgray;
+        }
+        col.medias {
+            background-color: lightblue;
+        }
     </style>
 </head>
 <body>
     <table>
+        <colgroup>
+            <col>
+            <col>
+            <col>
+            <col>
+            <col class="medias"> 
+        </colgroup>
         <thead>
             <tr>
-                <th>Áreas</th>
-                <th>disciplinas</th>
-                <th colspan="2">notas</th>
-                <th>médias</th>
+                <th scope="col">Áreas</th>
+                <th scope="col">disciplinas</th>
+                <th scope="col"colspan="2">notas</th>
+                <th scope="col" class="medias">médias</th>
             </tr>
         </thead>
         <tbody>
@@ -51,7 +64,7 @@
                 <td>0.0</td>
             </tr>
             <tr>
-                <th colspan="4">Média de exatas </th>
+                <th colspan="4" class="destaque">Média de exatas </th>
                 <td>0.0</td>
             </tr>
             <tr>
