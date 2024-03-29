@@ -22,69 +22,74 @@
             font-size: large;
             font-family: Arial, Helvetica, sans-serif;
         }
+        div#container{
+          overflow-x: auto;
+        }
     </style>
 </head>
 <body>
     <h1>Exercício de tabelas</h1>
-    <table>
-        <caption>Filmes favoritos</caption>
-        <thead>
+    <div id="container">
+      <table>
+          <caption>Filmes favoritos</caption>
+          <thead>
+              <tr>
+                  <th scope="col">Grupos</th>
+                  <th scope="col">Nomes</th>
+                  <th colspan="4" scope="colgroup">Filmes</th>
+              </tr>
+          </thead>
+        <tbody>
             <tr>
-                <th scope="col">Grupos</th>
-                <th scope="col">Nomes</th>
-                <th colspan="4" scope="colgroup">Filmes</th>
+              <th rowspan="3" scope="rowgroup">Mulheres</th>
+              <td>Amanda</td>
+              <td>Um Corpo que Cai</td>
+              <td>Cidadão Kane</td>
+              <td>Uma Odisseia no Espaço</td>
+              <td>Argo</td>
             </tr>
-        </thead>
-      <tbody>
-          <tr>
-            <th rowspan="3" scope="rowgroup">Mulheres</th>
-            <td>Amanda</td>
-            <td>Um Corpo que Cai</td>
-            <td>Cidadão Kane</td>
-            <td>Uma Odisseia no Espaço</td>
-            <td>Argo</td>
-          </tr>
-          <tr>
-            
-            <td>Claudia</td>
-            <td>O Ano Passado em Marienbad</td>
-            <td>O Iluminado</td>
-            <td>Ran</td>
-            <td>A Insustentável Leveza do Ser</td>
-          </tr>
-          <tr>
-           
-            <td>Patrícia</td>
-            <td>Pulp Fiction</td>
-            <td>O Paciente Inglês</td>
-            <td>O Show de Truman</td>
-           <td>Cidade de Deus</td>
-          </tr>
-          <tr>
-            <th rowspan="3" scope="rowgroup">Homens</th>
-            <td>Rodrigo</td>
-            <td>Moonlight </td>
-            <td>Parasita </td>
-            <td>Nomadland</td>
-            <td>O Regresso</td>
-          </tr>
-          <tr>
-            <td>João</td>
-            <td>A Forma da Água</td>
-            <td>O Grande Hotel Budapeste</td>
-            <td>A Vida é Bela</td>
-            <td>A Origem</td>
-            
-          </tr>
-          <tr>
-            <td>Socrates</td>
-            <td>O Discurso do Rei</td>
-            <td>Memento</td>
-            <td>A Teoria de Tudo</td>
-            <td>O Artista</td>
-            
-          </tr>
-        </tbody>   
-    </table>
+            <tr>
+      
+              <td>Claudia</td>
+              <td>O Ano Passado em Marienbad</td>
+              <td>O Iluminado</td>
+              <td>Ran</td>
+              <td>A Insustentável Leveza do Ser</td>
+            </tr>
+            <tr>
+      
+              <td>Patrícia</td>
+              <td>Pulp Fiction</td>
+              <td>O Paciente Inglês</td>
+              <td>O Show de Truman</td>
+             <td>Cidade de Deus</td>
+            </tr>
+            <tr>
+              <th rowspan="3" scope="rowgroup">Homens</th>
+              <td>Rodrigo</td>
+              <td>Moonlight </td>
+              <td>Parasita </td>
+              <td>Nomadland</td>
+              <td>O Regresso</td>
+            </tr>
+            <tr>
+              <td>João</td>
+              <td>A Forma da Água</td>
+              <td>O Grande Hotel Budapeste</td>
+              <td>A Vida é Bela</td>
+              <td>A Origem</td>
+      
+            </tr>
+            <tr>
+              <td>Socrates</td>
+              <td>O Discurso do Rei</td>
+              <td>Memento</td>
+              <td>A Teoria de Tudo</td>
+              <td>O Artista</td>
+      
+            </tr>
+          </tbody>
+      </table>
+    </div>
 </body>
 </html>
