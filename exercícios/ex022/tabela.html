@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        } 
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            background-color: lightgray;
+            padding: 10px
+
+        }
+        table {
+            width: 500px;
+        } 
+        td,th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead{
+            background-color: darkgray;
+            color: white;
+        }
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+        tfoot{
+            background-color: darkgray;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>uso de tabelas grandes</h1>
+    <table>
+        <caption>População das unidades federaivas</caption>
+        <thead>
+           <tr>
+            <th scope="col">estado</th>
+            <th scope="col" style="width: 140px; "  >população</th>
+           </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>São Paulo</td>
+            <td>5464 46464 4646</td>
+          </tr>
+          <tr>
+            <td>Rio de Janeiro</td>
+            <td>5445 0000 0</td>
+          </tr>
+          <tr>
+            <td>Amazonas</td>
+            <td>5454 5454 5454</td>
+          </tr>
+          <tr>
+            <td>Acre</td>
+            <td>3244 5000 0</td>
+        </tr>
+        <tr>
+            <td>Brasília</td>
+            <td>6565 6565 56</td>
+        </tr>
+        <tr>
+            <td>Roraima</td>
+            <td>6544 5454 44</td>
+        </tr>
+        </tbody>
+        <tfoot>
+           <tr>
+            <th>total de habitantes</th>
+            <th>0000000</th>
+           </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
