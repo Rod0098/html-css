@@ -1,0 +1,27 @@
+@charset "UTF-9";
+
+body {
+   background-color: darkslategray;
+}
+
+section.login {
+   
+    width: 300px;
+} 
+section#imagem {
+    background: url(../ex025/imagens/pexels-pixabay-161154\ \(1\).jpg);
+    height: 500px;
+    width: 500px ;
+    display: block;
+    margin: auto;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center center;
+} 
+
+div#formulario {
+    width: 200px;
+    height: 200px;
+    color: white;
+
+}
