@@ -26,13 +26,13 @@ section#imagem {
 
 div#formulario {
     width: 200px;
-    height: 200px;
+    height: 285px;
     background-color: rgba(47, 79, 79, 0.582);
     color: white;
     display: block;
     position:absolute;
     margin: auto;
-    transform: translate(13%, 55%);
+    transform: translate(13%, 29%);
     padding: 20px;
     border-radius: 20px;
 }
@@ -56,22 +56,22 @@ form div.campo2{
 div.campo2 > input{
     font-size: 1em;
     width: calc(100% - 45px);
-    height: 90%;
+    height: 80%;
     border: 0px;
     border-radius: 8px;
     padding: 3px;
-    transform: translateY(-2px);
+    transform: translateY(1px);
     background-color:rgba(47, 79, 79, 0.281) ;
     
 }
 div.campo > input{
     font-size: 1em;
     width: calc(100% - 48px);
-    height: 90%;
+    height: 80%;
     border: 0px;
     border-radius: 8px;
     padding: 3px;
-    transform: translateY(-2px);
+    transform: translateY(1px);
     background-color:rgba(47, 79, 79, 0.281) ;
     
 }
@@ -83,11 +83,27 @@ div.campo2 > input:focus-within {
 }  
 form > input[type=submit] {
     display: block;
-    width: 100%;
+    width: 45%;
     height: 40px;
+    border-radius: 8px;
+    background-color: rgba(5, 5, 240, 0.575);
+    text-align: center;
+}
+form > input[type=submit]:hover {
+    background-color:rgb(5, 5, 240) ;
+    transform: translate(-3px ,-3px);
 }
 form a.botao{
-    
+   display: block;
+   text-align: center;
+   width: 45%;
+   height: 35px;
+   border-radius: 8px;
+   background-color: lightslategrey;
+   margin-top: 5px;
+   text-decoration: none;
+   color: black;
+   font-size: 1em;
 }  
 
 /*section#imagem {
