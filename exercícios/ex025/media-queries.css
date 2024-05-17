@@ -62,7 +62,7 @@ form a.botao{
     display: block;
     text-align: center;
     width: 45%;
-    height: 35px;
+    height: 28px;
     border-radius: 8px;
     background-color: lightslategrey;
     margin-top: 5px;
@@ -70,4 +70,9 @@ form a.botao{
     color: black;
     font-size: 1em;
     margin-left: 80px;
+    padding-top: 10px;
  }  
+ form a.botao:hover {
+    transform: translate(-3px ,-3px);
+}
+}

@@ -88,7 +88,7 @@ form > input[type=submit] {
     border-radius: 8px;
     background-color: lightgray;
     text-align: center;
-    margin-left: 80px;
+    margin-left: 55px;
     font-size: 1em;
 }
 form > input[type=submit]:hover {
@@ -106,7 +106,7 @@ form a.botao{
    text-decoration: none;
    color: black;
    font-size: 1em;
-   margin-left: 80px;
+   margin-left: 55px;
 }  
 form a.botao:hover {
     transform: translate(-3px ,-3px);
