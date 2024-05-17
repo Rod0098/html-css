@@ -37,7 +37,7 @@ div#formulario {
     border-radius: 20px;
 }
 
-form div.campo{
+form > div.campo{
     display: block;
     width: 100%;
     height: 40px;
@@ -66,12 +66,12 @@ div.campo2 > input{
 }
 div.campo > input{
     font-size: 1em;
-    width: calc(100% - 49px);
+    width: calc(100%   -  49px);   /*100  -  49*/                     /*100   -  44.5*/
     height: 80%;
     border: 0px;
     border-radius: 8px;
     padding: 3px;
-    transform: translateY(1px);
+    transform: translateY(-10px);      /*1px*/        /*-12px*/
     background-color:rgba(47, 79, 79, 0.281) ;
     
 }
@@ -90,12 +90,13 @@ form > input[type=submit] {
     text-align: center;
     margin-left: 55px;
     font-size: 1em;
+    border: none;
 }
 form > input[type=submit]:hover {
     background-color:rgb(5, 5, 240) ;
     transform: translate(-3px ,-3px);
 }
-form a.botao{
+form > a.botao{
    display: block;
    text-align: center;
    width: 45%;
@@ -108,7 +109,7 @@ form a.botao{
    font-size: 1em;
    margin-left: 55px;
 }  
-form a.botao:hover {
+form > a.botao:hover {
     transform: translate(-3px ,-3px);
 }
 /*section#imagem {
