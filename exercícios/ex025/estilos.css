@@ -66,13 +66,14 @@ div.campo2 > input{
 }
 div.campo > input{
     font-size: 1em;
-    width: calc(100%   -  49px);   /*100  -  49*/                     /*100   -  44.5*/
+    width: calc(100%   -  50px);   /*100  -  49*/                     /*100   -  44.5*/
     height: 80%;
     border: 0px;
     border-radius: 8px;
     padding: 3px;
-    transform: translateY(-10px);      /*1px*/        /*-12px*/
+    transform: translateY(-3px);      /*1px*/        /*-12px*/
     background-color:rgba(47, 79, 79, 0.281) ;
+    margin-left: 50px;
     
 }
 div.campo > input:focus-within {
@@ -96,6 +97,11 @@ form > input[type=submit]:hover {
     background-color:rgb(5, 5, 240) ;
     transform: translate(-3px ,-3px);
 }
+div.campo > label {
+    display: inline-block;
+    width: 5px;
+}
+
 form > a.botao{
    display: block;
    text-align: center;
