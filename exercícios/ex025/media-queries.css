@@ -44,4 +44,30 @@ div#formulario {
     padding: 20px;
     border-radius: 20px;
 }
+form > input[type=submit] {
+    display: block;
+    width: 45%;
+    height: 40px;
+    border-radius: 8px;
+    background-color: lightgray;
+    text-align: center;
+    margin-left: 80px;
+    font-size: 1em;
 }
+form > input[type=submit]:hover {
+    background-color:rgb(5, 5, 240) ;
+    transform: translate(-3px ,-3px);
+}
+form a.botao{
+    display: block;
+    text-align: center;
+    width: 45%;
+    height: 35px;
+    border-radius: 8px;
+    background-color: lightslategrey;
+    margin-top: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    margin-left: 80px;
+ }  
