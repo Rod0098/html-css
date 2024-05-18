@@ -55,7 +55,7 @@ form div.campo2{
 }
 div.campo2 > input{
     font-size: 1em;
-    width: calc(100% - 46px);
+    width: calc(100% - 62px);
     height: 80%;
     border: 0px;
     border-radius: 8px;
@@ -66,12 +66,12 @@ div.campo2 > input{
 }
 div.campo > input{
     font-size: 1em;
-    width: calc(100%   -  50px);   /*100  -  49*/                     /*100   -  44.5*/
+    width: calc(100%   -  58px);   /*100  -  49*/                     /*100   -  44.5*/
     height: 80%;
     border: 0px;
     border-radius: 8px;
     padding: 3px;
-    transform: translateY(-3px);      /*1px*/        /*-12px*/
+    transform: translateY(-40px);      /*1px*/        /*-12px*/
     background-color:rgba(47, 79, 79, 0.281) ;
     margin-left: 50px;
     
@@ -97,9 +97,23 @@ form > input[type=submit]:hover {
     background-color:rgb(5, 5, 240) ;
     transform: translate(-3px ,-3px);
 }
-div.campo > label {
+div.campo2 > label {
+    padding: 10px 5px 2px 5px;
     display: inline-block;
-    width: 5px;
+    height: 30px;
+    width: 40px;
+    background-color: black;
+    font-size: 1em;
+    border-radius: 7px;
+}
+div.campo > label {
+    padding: 10px 5px 2px 5px;
+    display: inline-block;
+    height: 30px;
+    width: 40px;
+    background-color: black;
+    font-size: 1em;
+    border-radius: 7px;
 }
 
 form > a.botao{
