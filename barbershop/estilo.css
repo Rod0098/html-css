@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/*Tabela de cores:
+d38823
+#0D0D0D
+#F2F2F2
+#BF861B
+*/
+/*header#logo {
+   
+}*/
+*{
+    margin: 0px;
+    height: 0px;
+    width: 0px;
+    padding: 0px;
+}
+header{
+    background-color: black;
+    width: 100vw;
+    height: 100px;
+}
+header#logo{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    background: url(./imagens/logo.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+body {
+    
+}
+div#ima {
+   
+    
+    
+    
+    
+}   
+main>article#tex{
+    background-color: #0275d3;
+    margin: auto;
+    width: 80vw;
+}
