@@ -10,9 +10,9 @@ d38823
 }*/
 *{
     margin: 0px;
-    height: 0px;
-    width: 0px;
+    
     padding: 0px;
+    
 }
 header>div#foto{
     background-color: rgb(0, 0, 0);
@@ -41,37 +41,30 @@ body {
     background-color: #8B9094;
     
 }
-div#ima {
-   background: url(./imagens/foto1.jpg);
-   width: 300px;
-   height: 300px;
-   background-size: cover;
-   border-radius: 10px;
-   margin: 10px;
-}   
-/*div#ima2 {
-    background: url(./imagens/foto3.jpg);
+div.quadrado {
+    border: 1px solid black;
     width: 300px;
     height: 300px;
-    background-size: cover;
+    display: inline-block;
     border-radius: 10px;
-    margin: 10px;
-    transform: translate(110%, -100%);
- }   
- div#ima3 {
-    background: url(./imagens/foto2.jpg);
-    width: 300px;
-    height: 300px;
-    background-size: cover;
-    border-radius: 10px;
-    margin: 10px;
-    translate: 60%;
- }   */
-main>article#tex{
+    background-color: lightgray;
+}
+div#q1{
+   background-image: url(./imagens/foto1.jpg);
+}
+div#q2{
+   background-image: url(./imagens/foto2.jpg);
+}
+div#q3{
+   background-image: url(./imagens/foto3.jpg);
+}
+   
+main>article#tex p{
     background-color: lightgrey;
     margin: auto;
-    width: 80vw;
-    padding: 20px;
+    width: 70vw;
+    margin-top: 610px;
     text-align: center;
-    
+    font-size: 1.5em;
+    margin-left: 200px;
 }
