@@ -16,7 +16,7 @@ d38823
 }
 header>div#foto{
     background-color: rgb(0, 0, 0);
-    width: 92.3vw;
+    width: 91.2vw;
     height: 100px;
     translate: 7.5%;
  
@@ -33,7 +33,6 @@ header#logo{
 header h1 {
     text-align: center;
     color: #d38823 ;
-    margin-left: 500px;
     padding-top: 25px;
    
 }
@@ -43,27 +42,32 @@ body {
 }
 div.quadrado {
     border: 1px solid black;
-    width: 300px;
-    height: 300px;
+    width: 420px;
+    height: 500px;
     display: inline-block;
     border-radius: 10px;
     background-color: lightgray;
+    background-size: cover;
+    
 }
 div#q1{
    background-image: url(./imagens/foto1.jpg);
+   margin: 10px;
 }
 div#q2{
    background-image: url(./imagens/foto2.jpg);
+   margin: 10px;
 }
 div#q3{
    background-image: url(./imagens/foto3.jpg);
+   margin: 10px;
 }
    
 main>article#tex p{
     background-color: lightgrey;
     margin: auto;
     width: 70vw;
-    margin-top: 610px;
+    margin-top: 10px;
     text-align: center;
     font-size: 1.5em;
     margin-left: 200px;
