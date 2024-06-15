@@ -10,18 +10,64 @@ body{
 }
 div.quadrado {
     border: 1px solid black;
-    width: 300px;
-    height: 300px;
+    width: 97.1vw;
+    height: 700px;
     display: inline-block;
     border-radius: 10px;
     background-color: lightgray;
+    background-attachment: fixed;
+    background-size: cover;
 }
+
+*{
+    margin: 0px;
+    
+    padding: 0px;
+    
+}
+header>div#foto{
+    background-color: rgb(0, 0, 0);
+    width: 90.2vw;
+    height: 100px;
+    translate: 8.6%;
+ 
+}
+header#logo{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    background: url(./imagens/logo1.png);
+    background-size: cover;
+    background-position: center center;
+}
+header h1 {
+    text-align: center;
+    color: #d38823 ;
+    padding-top: 26px;
+   
+}
+body {
+    background-image: url(./imagens/foto4.jpg);
+   background-size: contain;
+    
+}
+
 div#q1{
    background-image: url(./imagens/foto1.jpg);
+   margin: 10px;
+   background-position: center bottom;
+   
 }
-div#q2{
-   background-image: url(./imagens/foto2.jpg);
-}
-div#q3{
-   background-image: url(./imagens/foto3.jpg);
+
+main>article#tex {
+    background-color: rgba(211, 211, 211, 0.527);
+    margin: auto;
+    width: 70vw;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    margin-left: 200px;
+    border-radius: 10px;
 }

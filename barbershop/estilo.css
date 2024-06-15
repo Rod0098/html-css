@@ -37,7 +37,8 @@ header h1 {
    
 }
 body {
-    background-color: #8B9094;
+    background-image: url(./imagens/foto4.jpg);
+    background-size: contain;
     
 }
 div.quadrado {
@@ -46,7 +47,7 @@ div.quadrado {
     height: 500px;
     display: inline-block;
     border-radius: 10px;
-    background-color: lightgray;
+    background-color: rgb(211, 211, 211);
     background-size: cover;
     
 }
@@ -63,12 +64,21 @@ div#q3{
    margin: 10px;
 }
    
-main>article#tex p{
-    background-color: lightgrey;
+main>article#tex {
+    background-color: rgba(211, 211, 211, 0.527);
     margin: auto;
     width: 70vw;
     margin-top: 10px;
     text-align: center;
     font-size: 1.5em;
     margin-left: 200px;
+    border-radius: 10px;
+    padding: 10px;
+}
+iframe {
+    width: 60vw;
+    height: 500px;
+    border-radius: 10px;
+    padding-top: 20px;
+    transform: translate(33%);
 }
