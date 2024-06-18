@@ -90,3 +90,14 @@ iframe {
     transform: translate(33%, 5%);
    
 }
+
+footer{
+    background-color: black;
+} 
+div#fundo{
+    background: url(imagens/logo1.png);
+    height: 100px;
+    width: 100px;
+    background-position: center center;
+    background-size: cover;
+}
