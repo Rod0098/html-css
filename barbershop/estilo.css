@@ -87,7 +87,7 @@ iframe {
     width: 60vw;
     height: 500px;
     border-radius: 10px;
-    transform: translate(33%, 5%);
+    transform: translate(33%, 1%);
    
 }
 
@@ -96,8 +96,18 @@ footer{
 } 
 div#fundo{
     background: url(imagens/logo1.png);
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 200px;
     background-position: center center;
     background-size: cover;
+    margin-left: 600px;
+    
+}
+div#fundo2{
+    background-color: black;
+    height: 150px;
+    width: 100vw;
+    background-position: center center;
+    background-size: cover;
+   
 }
