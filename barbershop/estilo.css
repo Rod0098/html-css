@@ -82,12 +82,19 @@ main>article#tex {
     padding: 10px;
     border: 1px solid black;
 }
-
+div#ifra{
+    width: 60vw;
+    height: 700px;
+    border-radius: 10px;
+    transform: translate(33%, 1%);
+    background-color: white;
+   
+}
 iframe {
     width: 60vw;
     height: 500px;
     border-radius: 10px;
-    transform: translate(33%, 1%);
+   
    
 }
 
@@ -106,8 +113,9 @@ div#fundo{
 div#fundo2{
     background-color: black;
     height: 150px;
-    width: 100vw;
+    width: 98.7vw;
     background-position: center center;
     background-size: cover;
    
 }
+
