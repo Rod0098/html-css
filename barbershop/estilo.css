@@ -84,11 +84,21 @@ main>article#tex {
 }
 div#ifra{
     width: 60vw;
-    height: 700px;
+    height: 650px;
     border-radius: 10px;
     transform: translate(33%, 1%);
     background-color: white;
    
+}
+div#ifra>h2{
+    text-align: center;
+    padding: 5px;
+}
+div#ifra>p{
+    text-align: center;
+    margin: 10px;
+    font-weight: bolder;
+    font-size: 1.2em;
 }
 iframe {
     width: 60vw;
