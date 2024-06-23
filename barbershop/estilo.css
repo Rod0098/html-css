@@ -12,7 +12,7 @@ d38823
     margin: 0px;
     
     padding: 0px;
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 @font-face {
     font-family: 'barber';
@@ -88,7 +88,7 @@ div#ifra{
     border-radius: 10px;
     transform: translate(33%, 1%);
     background-color: white;
-   
+    margin: 10px;
 }
 div#ifra>h2{
     text-align: center;

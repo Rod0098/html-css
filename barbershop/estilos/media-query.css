@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@media screen and (min-width:768px) and (max-width: 992px) {
+@media screen and (min-width:600px) and (max-width: 768px) {
     div.quadrado {
         border: 1px solid black;
         width: 420px;
@@ -10,6 +10,13 @@
         background-size: cover;
         
     }
+    div#q3{
+        background-image: url(./imagens/foto5.jpg);
+        margin: 10px;
+     }
+     body {
+        background-color: black;
+     }
 }
 @media screen and (min-width: 992px) {
 }
