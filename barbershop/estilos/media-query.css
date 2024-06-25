@@ -24,12 +24,12 @@
         
      }
      div#q2{
+        display: none;
+     }
+     div#q3{
         margin-left: 10px;
         text-align: center;
         background-attachment: fixed;
-     }
-     div#q3{
-      display: none;
      }
      main>article#tex {
         background-color: rgb(211, 211, 211);
