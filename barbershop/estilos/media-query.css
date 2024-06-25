@@ -10,26 +10,23 @@
         padding-top: 29px;
         font-family: 'barber', times ,serif;
         font-size: 2.2em;
-       
+        
     }
-    header>div#foto{
-        width: 78vw;
-        translate: 24.5%;
+    header>div#logo{
+     
     }
-    header#logo{
-
+    header#tras{
+      
     }
     div#q1{
         display: none;
-        
      }
      div#q2{
-        display: none;
-     }
-     div#q3{
         margin-left: 10px;
         text-align: center;
-        background-attachment: fixed;
+     }
+     div#q3{
+        display: none;
      }
      main>article#tex {
         background-color: rgb(211, 211, 211);

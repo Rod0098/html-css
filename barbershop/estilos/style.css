@@ -18,7 +18,23 @@ d38823
     font-family: 'barber';
     src: url('Albertson.otf') format('opentype'), url('Albertson.ttf') format('truetype');
 }
-header>div#foto{
+header>div#logo{
+    padding-left: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    background: url(../imagens/logo1.png);
+    background-size: cover;
+    background-position: center center;
+}
+header#tras{
+    background-color: rgb(0, 0, 0);
+    width: 98.7vw;
+    height: 100px;
+    
+}
+
+/*header>div#foto{
     background-color: rgb(0, 0, 0);
     width: 91.2vw;
     height: 100px;
@@ -33,13 +49,14 @@ header#logo{
     background: url(../imagens/logo1.png);
     background-size: cover;
     background-position: center center;
-}
+}*/
 header h1 {
     text-align: center;
     color: #d38823 ;
     padding-top: 21px;
     font-family: 'barber', times ,serif;
     font-size: 3em;
+    margin-left: 600px;
    
 }
 body {
