@@ -10,13 +10,13 @@
         padding-top: 29px;
         font-family: 'barber', times ,serif;
         font-size: 2.2em;
-        
+        margin-left: 200px;
     }
     header>div#logo{
      
     }
     header#tras{
-      
+      width: 98vw;
     }
     div#q1{
         display: none;
