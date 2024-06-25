@@ -7,10 +7,10 @@
     header h1 {
         text-align: center;
         color: #d38823 ;
-        padding-top: 31px;
+        padding-top: 35px;
         font-family: 'barber', times ,serif;
         font-size: 2.2em;
-        margin-left: 200px;
+        margin-left: 180px;
     }
     header>div#logo{
      
@@ -42,7 +42,7 @@
         border: 1px solid black;
     }
     div#fundo{
-        margin-left: 148px;
+        margin-left: 135px;
     }
     div#fundo2{
         width: 100vw;
