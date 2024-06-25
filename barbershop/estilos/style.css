@@ -1,4 +1,4 @@
-/*@charset "UTF-8";
+@charset "UTF-8";
 /*Tabela de cores:
 d38823
 #0D0D0D
@@ -7,7 +7,7 @@ d38823
 */
 /*header#logo {
    
-}
+}*/
 *{
     margin: 0px;
     
@@ -30,7 +30,7 @@ header#logo{
     width: 100px;
     height: 100px;
     background-color: rgb(0, 0, 0);
-    background: url(./imagens/logo1.png);
+    background: url(../imagens/logo1.png);
     background-size: cover;
     background-position: center center;
 }
@@ -43,7 +43,7 @@ header h1 {
    
 }
 body {
-    background-image: url(./imagens/foto4.jpg);
+    background-image: url(../imagens/foto4.jpg);
     background-size: contain;
     
 }
@@ -58,15 +58,15 @@ div.quadrado {
     
 }
 div#q1{
-   background-image: url(./imagens/foto1.jpg);
+   background-image: url(../imagens/foto1.jpg);
    margin: 10px;
 }
 div#q2{
-   background-image: url(./imagens/foto2.jpg);
+   background-image: url(../imagens/foto2.jpg);
    margin: 10px;
 }
 div#q3{
-   background-image: url(./imagens/foto5.jpg);
+   background-image: url(../imagens/foto5.jpg);
    margin: 10px;
 }
    
@@ -112,7 +112,7 @@ footer{
     background-color: black;
 } 
 div#fundo{
-    background: url(imagens/logo1.png);
+    background: url(../imagens/logo1.png);
     height: 150px;
     width: 200px;
     background-position: center center;
@@ -127,5 +127,4 @@ div#fundo2{
     background-position: center center;
     background-size: cover;
    
-}*/
-
+}

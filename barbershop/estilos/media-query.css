@@ -1,22 +1,51 @@
 @charset "UTF-8";
-@media screen and (min-width:600px) and (max-width: 768px) {
-    div.quadrado {
-        border: 1px solid black;
-        width: 420px;
-        height: 500px;
-        display: inline-block;
-        border-radius: 10px;
-        background-color: rgb(211, 211, 211);
-        background-size: cover;
-        
+@media screen and (max-width: 768px) {
+    header h1 {
+        text-align: center;
+        color: #d38823 ;
+        padding-top: 29px;
+        font-family: 'barber', times ,serif;
+        font-size: 2.2em;
+       
     }
-    div#q3{
-        background-image: url(./imagens/foto5.jpg);
-        margin: 10px;
+    header>div#foto{
+        width: 76vw;
+        translate: 24.5%;
+    }
+    header#logo{
+
+    }
+    div#q1{
+        margin-left: 30px;
+        text-align: center;
      }
-     body {
-        background-color: black;
+     div#q2{
+      display: none;
      }
+     div#q3{
+      display: none;
+     }
+     main>article#tex {
+        background-color: rgb(211, 211, 211);
+        margin: auto;
+        width: 60vw;
+        margin-top: 10px;
+        text-align: center;
+        font-size: 1.5em;
+        margin-left: 100px;
+        border-radius: 10px;
+        padding: 10px;
+        border: 1px solid black;
+    }
+    div#fundo{
+        margin-left: 150px;
+    }
+    div#fundo2{
+        width: 96.4vw;
+    }
 }
 @media screen and (min-width: 992px) {
+    body {
+        background-color: black;
+    }
 }
