@@ -34,11 +34,11 @@
      main>article#tex {
         background-color: rgb(211, 211, 211);
         margin: auto;
-        width: 60vw;
+        width: 70vw;
         margin-top: 10px;
         text-align: center;
         font-size: 1.5em;
-        margin-left: 100px;
+        margin-left: 50px;
         border-radius: 10px;
         padding: 10px;
         border: 1px solid black;
@@ -48,6 +48,17 @@
     }
     div#fundo2{
         width: 96.4vw;
+    }
+    iframe {
+        width: 60vw;
+        height: 400px;
+        border-radius: 10px;
+    }
+    div#ifra{
+        width: 60vw;
+        height: 500px;
+        margin-bottom: 80px;
+        
     }
 }
 @media screen and (min-width: 992px) {
