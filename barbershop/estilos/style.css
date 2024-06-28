@@ -147,9 +147,9 @@ div#whats>a>img{
     width: 50px;
 }
 #insta{
-    border: 3px, solid, black;
+    border: 2px, solid, black;
     border-radius: 10px;
-    background-color:#69adec;
+    background-color:#69adeca4;
     text-decoration: none;
     color: black;
 }
