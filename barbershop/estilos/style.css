@@ -128,3 +128,12 @@ div#fundo2{
     background-size: cover;
    
 }
+div#whats{
+    height: 30px;
+    width: 30px;
+}
+div#whats>a>img{
+    height: 50px;
+    width: 50px;
+    
+}
