@@ -152,6 +152,8 @@ div#whats>a>img{
     background-color:#69adeca4;
     text-decoration: none;
     color: black;
+    padding-right: 5px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.568);
 }
 #insta:hover{
     background-color: #3692e9;
