@@ -58,14 +58,19 @@ div.quadrado {
     
 }
 div#q1{
+   
    background-image: url(../imagens/foto1.jpg);
    margin: 10px;
 }
 div#q2{
    background-image: url(../imagens/foto2.jpg);
+   
    margin: 10px;
+   text-align: center;
+   /*background: url(../media/Vídeo\ do\ WhatsApp.mp4) ;*/
 }
 div#q3{
+   
    background-image: url(../imagens/foto5.jpg);
    margin: 10px;
 }
