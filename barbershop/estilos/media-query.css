@@ -22,9 +22,17 @@
         display: none;
      }
      div#q2{
+        background-image: url(../imagens/foto4.jpg);
+        width: 400px;
+        height: 400px;
         margin-left: 10px;
+     }
+     div#q2>video{
+        transform: translate(0%, -2%);
         text-align: center;
-        width: 95vw;
+        width: 400px;
+        height: 500px;
+        display: inline-block;
      }
      div#q3{
         display: none;
