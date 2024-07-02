@@ -49,7 +49,7 @@ body {
 }
 div.quadrado {
     border: 1px solid black;
-    width: 47vw;
+    width: 31vw;
     height: 500px;
     display: inline-block;
     border-radius: 10px;
@@ -57,9 +57,7 @@ div.quadrado {
     background-size: cover;
     margin: 10px;
 }
-div#q0{
-   display: none;
-}
+
 div#q1{
    background-image: url(../imagens/foto1.jpg);
    margin: 10px;
@@ -71,10 +69,10 @@ div#q2{
    text-align: center;
 }
 
-/*div#q3{
+div#q4{
    background-image: url(../imagens/foto5.jpg);
    margin: 10px;
-}*/
+}
    
 main>article#tex {
     background-color: rgba(211, 211, 211, 0.527);

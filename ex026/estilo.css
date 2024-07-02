@@ -8,23 +8,7 @@
 body{
     background-image: url(imagens/wallpaper001.jpg);
 }
-div.quadrado {
-    border: 1px solid black;
-    width: 97.1vw;
-    height: 700px;
-    display: inline-block;
-    border-radius: 10px;
-    background-color: lightgray;
-    background-attachment: fixed;
-    background-size: cover;
-}
 
-*{
-    margin: 0px;
-    
-    padding: 0px;
-    
-}
 header>div#foto{
     background-color: rgb(0, 0, 0);
     width: 90.2vw;
@@ -55,19 +39,102 @@ body {
 }
 
 div#q1{
-   background-image: url(./imagens/foto1.jpg);
+   text-align: center;
    margin: 10px;
-   background-position: center bottom;
-   
+   border-radius: 10px;
 }
 
 main>article#tex {
-    background-color: rgba(211, 211, 211, 0.527);
+    background-color: rgba(211, 211, 211, 0.671);
     margin: auto;
     width: 70vw;
     margin-top: 10px;
     text-align: center;
     font-size: 1.5em;
-    margin-left: 200px;
+    margin-left: 50px;
     border-radius: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+div#ifra{
+    width: 60vw;
+    height: 650px;
+    border-radius: 10px;
+    transform: translate(33%, 1%);
+    background-color: white;
+    margin: 10px;
+}
+div#ifra>h2{
+    text-align: center;
+    padding: 5px;
+}
+div#ifra>p{
+    text-align: center;
+    margin: 10px;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+iframe {
+    width: 60vw;
+    height: 500px;
+    border-radius: 10px;
+   
+   
+}
+
+footer{
+    background-color: black;
+} 
+div#fundo{
+    background: url(./imagens/logo1.png);
+    height: 150px;
+    width: 200px;
+    background-position: center center;
+    background-size: cover;
+    margin-left: 105px;
+    
+}
+div#fundo2{
+    background-color: black;
+    height: 150px;
+    width: 100vw;
+    background-position: center center;
+    background-size: cover;
+   
+}
+div#whats{
+    height: 30px;
+    width: 30px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9999;
+}
+div#whats:hover{
+   transform: translate(-3px, -3px);
+}
+div#whats>a>img{
+    height: 50px;
+    width: 50px;
+}
+#insta{
+    border: 2px, solid, black;
+    border-radius: 10px;
+    background-color:#69adeca4;
+    text-decoration: none;
+    color: black;
+    padding-right: 5px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.568);
+}
+#insta:hover{
+    background-color: #3692e9;
+}
+#insta>img{
+    height: 35px;
+    width: 35px;
+    transform: translate(-10%, 25%);
+}
+h3{
+    padding: 15px;
+    padding-bottom: 10px;
 }
