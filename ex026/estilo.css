@@ -5,6 +5,10 @@
     padding: 0px;
     
 }
+@font-face {
+    font-family: 'barber';
+    src: url('Albertson.otf') format('opentype'), url('Albertson.ttf') format('truetype');
+}
 body{
     background-image: url(imagens/wallpaper001.jpg);
 }
