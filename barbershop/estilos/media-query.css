@@ -18,24 +18,20 @@
     header#tras{
       width: 100vw;
     }
-    div#q0{
-        margin-top: 10px;
-        display: inline-block;
-        text-align: center;
-    }
+    
     div#q1{
         display: none;
      }
      div#q2{
 
-        display: none;
+        display: inline-block;
      }
      
-     }
+     
      div#q3{
         display: none;
      }
-     main>article#tex {
+     main>article#texto {
         background-color: rgba(211, 211, 211, 0.671);
         margin: auto;
         width: 70vw;
@@ -47,10 +43,10 @@
         padding: 10px;
         border: 1px solid black;
     }
-    div#fundo{
+    div#fundo1{
         margin-left: 105px;
     }
-    div#fundo2{
+    div#fundo21{
         width: 100vw;
     }
     iframe {

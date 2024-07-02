@@ -118,7 +118,7 @@ iframe {
 footer{
     background-color: black;
 } 
-div#fundo{
+div#fundo1{
     background: url(../imagens/logo1.png);
     height: 150px;
     width: 200px;
@@ -127,7 +127,7 @@ div#fundo{
     margin-left: 600px;
     
 }
-div#fundo2{
+div#fundo21{
     background-color: black;
     height: 150px;
     width: 99vw;
