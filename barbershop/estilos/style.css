@@ -49,34 +49,32 @@ body {
 }
 div.quadrado {
     border: 1px solid black;
-    width: 420px;
+    width: 47vw;
     height: 500px;
     display: inline-block;
     border-radius: 10px;
     background-color: rgb(211, 211, 211);
     background-size: cover;
-    
+    margin: 10px;
+}
+div#q0{
+   display: none;
 }
 div#q1{
-   
    background-image: url(../imagens/foto1.jpg);
    margin: 10px;
 }
 div#q2{
+    
    background-image: url(../imagens/foto2.jpg);
-   
    margin: 10px;
    text-align: center;
-   /*background: url(../media/Vídeo\ do\ WhatsApp.mp4) ;*/
 }
-div#q2>video{
-   display: none;
-}
-div#q3{
-   
+
+/*div#q3{
    background-image: url(../imagens/foto5.jpg);
    margin: 10px;
-}
+}*/
    
 main>article#tex {
     background-color: rgba(211, 211, 211, 0.527);
