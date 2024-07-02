@@ -76,7 +76,7 @@ div#q4{
    
 main>article#tex {
     background-color: rgba(211, 211, 211, 0.527);
-    margin: auto;
+    margin-left: 100px;
     width: 70vw;
     margin-top: 10px;
     text-align: center;
@@ -91,7 +91,7 @@ main>article#tex {
 }
 div#ifra{
     width: 60vw;
-    height: 650px;
+    height: 300px;
     border-radius: 10px;
     transform: translate(33%, 1%);
     background-color: white;
