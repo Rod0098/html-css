@@ -38,6 +38,9 @@ header#tras{
     margin-left: 170px;
        
     }
+div#q0{
+            display: none;
+}
 div#q1{
    text-align: center;
    margin: 10px;

@@ -1,4 +1,27 @@
-@charset "UTF-8" ;
-@media screen and (min-width:768px) and (max-width: 992px) {
+@charset "UTF-8";
 
+@media screen and (min-width: 768px)  {
+    body {
+        background-color: black;
+    }
+    div#q1{
+     display: none;
+    } 
+    div#q0{
+       display: inline-block;
+       background: url(../imagens/foto6.jpg);
+       width: 700px;
+       height: 500px;
+       background-repeat: no-repeat;
+       text-align: center;
+       background-size: cover;
+       margin-left: 25vw;
+       margin-top: 10px;
+       border-radius: 10px;
+       background-position: left center;
+       
+    }
+    main>article#tex {
+    margin-left: 185px;
+    }
 }
