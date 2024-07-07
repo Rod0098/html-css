@@ -52,12 +52,13 @@ main>article#tex {
     background-color: rgba(211, 211, 211, 0.671);
     margin: auto;
     width: 70vw;
-    margin-top: 10px;
+    margin-top: 10px; 
     text-align: center;
     font-size: 1.5em;
     margin-left: 50px;
     border-radius: 10px;
     padding: 10px;
+    padding-bottom: 20px;
     border: 1px solid black;
 }
 div#ifra{
@@ -124,8 +125,10 @@ div#whats>a>img{
     background-color:#69adeca4;
     text-decoration: none;
     color: black;
-    padding-right: 5px;
+    padding-right: 7px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.568);
+    padding-top: 2px;
+    padding-bottom: 3px;
 }
 #insta:hover{
     background-color: #3692e9;
@@ -137,5 +140,5 @@ div#whats>a>img{
 }
 h3{
     padding: 15px;
-    padding-bottom: 10px;
+    padding-bottom: 3px;
 }
