@@ -51,15 +51,16 @@ div#q1{
 main>article#tex {
     background-color: rgba(211, 211, 211, 0.671);
     margin: auto;
-    width: 70vw;
+    width: 80vw;
     margin-top: 10px; 
     text-align: center;
     font-size: 1.5em;
-    margin-left: 50px;
+    
     border-radius: 10px;
     padding: 10px;
     padding-bottom: 20px;
     border: 1px solid black;
+    box-shadow:  6px 6px 13px 0px rgba(0, 0, 0, 0.541);
 }
 div#ifra{
     width: 60vw;
