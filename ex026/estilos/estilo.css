@@ -7,7 +7,8 @@
 }
 @font-face {
     font-family: 'barber';
-    src: url('Albertson.otf') format('opentype'), url('Albertson.ttf') format('truetype');
+    src: url('Eastwood.otf') format('opentype'), url('Eastwood.ttf') format('truetype');
+    font-weight: normal;
 }
 body {
     background-image: url(../imagens/foto4.jpg);
@@ -29,14 +30,14 @@ header#tras{
     height: 100px;
     
 }
- header h1 {
+header h1 {
     text-align: center;
     color: #d38823 ;
-    padding-top: 39px;
     font-family: 'barber', times ,serif;
-    font-size: 2.2em;
-    margin-left: 170px;
-       
+    font-size: 2em;
+    transform: translate(5%, 85%);
+    display: inline-block;
+    width: 500px;
     }
 div#q0{
             display: none;

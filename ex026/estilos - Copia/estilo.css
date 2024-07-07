@@ -7,17 +7,20 @@
 }
 @font-face {
     font-family: 'barber';
-    src: url('Albertson.otf') format('opentype'), url('Albertson.ttf') format('truetype');
+    src: url('Eastwood.otf') format('opentype'), url('Eastwood.ttf') format('truetype');
+    font-weight: normal;
 }
-body{
-    background-image: url(imagens/wallpaper001.jpg);
+body {
+    background-image: url(../imagens/foto4.jpg);
+   background-size: contain;
+    
 }
 header>div#logo{
     padding-left: 10px;
     width: 100px;
     height: 100px;
     background-color: rgb(0, 0, 0);
-    background: url(./imagens/logo1.png);
+    background: url(../imagens/logo1.png);
     background-size: cover;
     background-position: center center;
 }
@@ -34,16 +37,12 @@ header#tras{
     font-family: 'barber', times ,serif;
     font-size: 2.2em;
     margin-left: 170px;
+    
        
     }
-   
-
-body {
-    background-image: url(./imagens/foto4.jpg);
-   background-size: contain;
-    
+div#q0{
+            display: none;
 }
-
 div#q1{
    text-align: center;
    margin: 10px;
@@ -84,15 +83,12 @@ iframe {
     width: 60vw;
     height: 400px;
     border-radius: 10px;
-   
-   
 }
-
 footer{
     background-color: black;
 } 
 div#fundo{
-    background: url(./imagens/logo1.png);
+    background: url(../imagens/logo1.png);
     height: 150px;
     width: 200px;
     background-position: center center;
