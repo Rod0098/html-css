@@ -35,9 +35,9 @@ header h1 {
     color: #d38823 ;
     font-family: 'barber', times ,serif;
     font-size: 2em;
-    transform: translate(5%, 85%);
+    transform: translate(35%, 20%);
     display: inline-block;
-    width: 500px;
+    width: 300px;
     }
 div#q0{
             display: none;
